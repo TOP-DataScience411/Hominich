@@ -6,3 +6,7 @@ birthyear = int(input("Введите год рождения "))
 year = datetime.now().year - birthyear
 
 print(surname, name+",", year)
+#Введите имя: Рита
+#Введите фамилию: Хоминич
+#Введите год рождения 1990
+#Хоминич Рита, 34
