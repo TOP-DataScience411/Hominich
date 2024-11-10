@@ -1,8 +1,11 @@
 while True:
     try:
         n = int(input("Введите натуральное число: "))
+        0 / n
         break
     except ValueError:
+        continue
+    except ZeroDivisionError:
         continue
 
 sum_of_divisors = 0
