@@ -1,9 +1,8 @@
 cell1 = input("Введите координаты первой клетки: ")
 cell2 = input("Введите координаты второй клетки: ")
 
-horizontal = ["a", "b", "c", "d", "e", "f", "g", "h"]
-verticalInt = list(range(1, 9))
-vertical = list(map(str, verticalInt))
+horizontal = "abcdefgh"
+vertical = "12345678"
 
 if (
         len(cell1) == 2

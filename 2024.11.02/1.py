@@ -1,18 +1,18 @@
-sum = 0
+positive_sum  = 0
 
 for _ in range(3):
     try:
         number = float(input("Введите число: "))
         if number > 0:
-            sum += number
+            positive_sum += number
     except ValueError:
         print("Похоже, что это не число...")
 
-if sum.is_integer():
-    print("Сумма только положительных чисел:", int(sum))
+if positive_sum.is_integer():
+    print("Сумма только положительных чисел:", int(positive_sum))
 else:
-    print("Сумма только положительных чисел:", sum)
-    
+    print("Сумма только положительных чисел:", positive_sum)
+
 # Введите число: 21
 # Введите число: -1.09
 # Введите число: 5
