@@ -25,8 +25,10 @@ plt.show()
 X = x.reshape(-1, 1)
 
 # Обучение модели RANSAC
+# почему именно эа модель?
 ransac = RANSACRegressor(estimator=LinearRegression(),
                          min_samples=2,
+                         # откуда значение 0.35?
                          residual_threshold=0.35,
                          random_state=42)
 ransac.fit(X, y)

@@ -61,3 +61,7 @@ print(f"RMSE = {rmse_full:.3f}")
 print("\n--- Регрессия на inliers ---")
 print(f"R² = {r2_in:.3f}")
 print(f"RMSE = {rmse_in:.3f}")
+
+
+# ИТОГ: очень хорошо — 10/12
+
